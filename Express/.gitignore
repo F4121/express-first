@@ -1,4 +1,7 @@
-# node modules
+#self
+.gitignore
+
+#node modules
 /node_modules
 
 #package
