@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            display: flex;
+            
+        }
+        form p{
+            font-size: 13px;
+            font-weight: bold;
+        }
+        form input{
+            margin-right: 20px;
+        }
+
+        form button{
+            display: flex;
+            align-self: flex-end;
+            height: 20px;
+        }
+
+        h3{
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .result{
+            margin-top: 20px;
+        }
+        .operator{
+            align-self: flex-end;
+            margin: 0 20px 0 0;
+        }
+    </style>
+</head>
+<body>
+    <h3>Calculator</h3>
+    <form action="/" method="POST" >
+        <div class="form-group" >
+            <p>Number One</p>
+            <input   name="n1" type="number" />
+        </div>
+        <div class="operator" >
+            +
+        </div>
+        <div class="form-group" >
+            <p>Number Two</p>
+           <input name="n2" type="number" />
+        </div>
+        <button type="submit" >Calculate</button>
+    </form>
+</body>
+</html>

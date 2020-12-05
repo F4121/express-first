@@ -1,0 +1,20 @@
+{
+  "name": "calculator-express",
+  "version": "1.0.0",
+  "description": "first calculator build with express and html",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "Node.js",
+    "Express"
+  ],
+  "author": "Muhammad Nur Faizi",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}
